@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabelas</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h2>Produtos</h2>
+	<table border="2" width="100%"> <!-- Definie a tabela,borda e largura-->
+		<tr> <!--Primeiro <tr> define a primeira linha das colunas-->
+			<th>Código</th>	<!-- TH define a tabela header-->
+			<th>Produto</th>
+			<th>Preço</th>
+		</tr>
+		<tr> <!-- Demais <tr> insere os dados nas linhas -->
+			<td>001</td>
+			<td>Notebook</td>
+			<td>R$2.500,99</td>
+		</tr>
+		<tr>
+			<td>002</td>
+			<td>Tablet</td>
+			<td>R$2.500,99</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Desconto</td> <!--rowspan a td ocupa duas linhas-->
+			<td colspan="2">Cupom1 - R$10,0</td> <!-- Colspan a td ocupa duas colunas -->
+		</tr>
+		<tr>
+			<td colspan="2">Cupom2 - R$12,0</td> <!-- Colspan defini o espaço que a td vai ocupar na tabela -->
+		</tr>
+		<tr>
+			<td>Total:</td>
+			<td colspan="2"> R$3478,98</td>
+
+		</tr>
+	</table>
+
+</body>
+</html>
